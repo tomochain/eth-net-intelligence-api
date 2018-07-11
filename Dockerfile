@@ -9,7 +9,7 @@ ENV CONTACT_DETAILS ''
 ENV INSTANCE_NAME 'unnamed node'
 
 RUN npm install \
-    npm install -g pm2
+    && npm install -g pm2
 
 COPY . .
 
